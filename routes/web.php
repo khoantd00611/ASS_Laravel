@@ -17,10 +17,7 @@
 //Route::get('/yummy',function (){
 //    return view('ymmy');
 //});
-
-Route::resource('admin/category', 'CategoryController');
-Route::resource('admin/collection', 'CollectionController');
-Route::resource('admin/article', 'ArticleController');
-Route::resource('admin/bakery', 'BakeryController');
+Route::resource('/index','ApartmentController');
+//Route::resource('admin/article', 'ArticleController');
 
 
